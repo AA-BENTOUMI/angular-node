@@ -1,0 +1,19 @@
+
+<form [formGroup]="todoForm"  class="form-horizontal"  >
+
+    <div id="legend">
+      <legend class="">todo</legend>
+    </div>
+    <div class="control-group">
+      <!-- Username -->
+      <label class="control-label"  for="email">todo</label>
+      <div class="controls">
+        <input type="text" formControlName="book" name="book" placeholder="book" class="input-xlarge">
+      </div>
+    </div>
+    <div class="control-group">
+      <div class="controls">
+        <button class="btn btn-success" (click)="Adding()">ADD</button>
+      </div>
+    </div>
+</form>
